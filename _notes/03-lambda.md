@@ -28,6 +28,7 @@ export.handler = async (event) => {
 }
 ```
 ## Form
+Go to Lambda, Enable "Use Lambda Proxy integration", in order to pass from data to Lambda function.
 
 ```
   <form action="call api gate way">
